@@ -32,4 +32,4 @@ Extracting descriptive statistics for precipitation in the month of June:
 Extracting descriptive statistics for precipitation in the month of June:
 `pd.DataFrame({"december_precipitation": [t[0] for t in engine.execute('SELECT prcp FROM measurement WHERE date LIKE "%-12-%"').fetchall()]}).describe()`
 
-![Comparison of June and December Temperature Statistics](june-december-temp-stats.png)
+![Comparison of June and December Temperature Statistics](june-december-precip-stats.png)
